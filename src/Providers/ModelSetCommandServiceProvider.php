@@ -1,8 +1,8 @@
 <?php
 
-namespace Decorate\Providers;
+namespace DecorateCommands\Providers;
 
-use Decorate\Commands\ModelSetCommand;
+use DecorateCommands\Commands\ModelSetCommand;
 use Illuminate\Support\ServiceProvider;
 
 class MigrateCommandServiceProvider extends ServiceProvider
