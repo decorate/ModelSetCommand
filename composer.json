@@ -1,0 +1,32 @@
+{
+    "name": "decorate/model-set-command",
+    "description": "make a command package",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1.3",
+        "decorate/js-model-make-command": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "mockery/mockery": "^1.2",
+        "orchestra/testbench": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Decorate\\Commands\\": "src/",
+            "Decorate\\Providers\\": "src/Providers",
+            "Test\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Decorate\\Providers\\MigrateCommandServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "minimum-stability": "dev"
+}
