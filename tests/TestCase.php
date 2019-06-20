@@ -1,5 +1,5 @@
 <?php
-    namespace Test;
+    namespace ModelSetCommand\Test;
 
     class TestCase extends \Orchestra\Testbench\TestCase {
 

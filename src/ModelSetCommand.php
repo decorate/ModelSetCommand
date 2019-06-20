@@ -1,6 +1,6 @@
 <?php
 
-namespace DecorateCommands\Commands;
+namespace Decorate\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Database\Migrations\Migrator;
